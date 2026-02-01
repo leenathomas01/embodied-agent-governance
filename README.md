@@ -101,3 +101,19 @@ The full origin conversation is available in [Appendix A](appendices/origin-conv
 ## License
 
 MIT License — open for research, reference, and extension.
+
+---
+
+## Related Work
+
+This repository provides governance patterns for AI agents operating in physical or simulated environments.
+
+**For a complete catalog of related research:**  
+📂 [AI Safety & Systems Architecture Research Index](https://github.com/leenathomas01/research-index)
+
+**Thematically related:**
+- [Connector OS](https://github.com/leenathomas01/connector-os-trenchcoat) — State-awareness architecture for agents
+- [Doctrine of Externalization](https://github.com/leenathomas01/doctrine-of-externalization) — External trust layers
+- [The Continuity Problem](https://github.com/leenathomas01/The-Continuity-Problem) — Governance before autonomy
+
+---
