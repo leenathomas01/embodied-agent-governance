@@ -2,6 +2,13 @@
 
 A layered control architecture for intelligent systems operating in real-world physical environments.
 
+> Designed for embodied systems where:
+>
+  > -  Actions carry irreversible cost
+  > -  Materials degrade or fail silently
+  > -  Physical resistance is signal, not noise
+  > -  Incorrect execution causes real damage
+   
 ---
 
 ## The Problem
