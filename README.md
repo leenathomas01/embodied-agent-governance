@@ -1,20 +1,22 @@
 # Embodied Agent Governance
 
-A governance pattern for embodied agents operating in imperfect environments.
+A layered control architecture for intelligent systems operating in real-world physical environments.
 
 ---
 
 ## The Problem
 
-Agents fail in the real world not because of lack of intelligence, but because of:
+Intelligence alone is insufficient for safe physical embodiment.
 
-- Incorrect assumptions about environment quality
-- Inability to detect when assumptions are wrong
-- Belief volatility from overlearning failures
-- Successful outcomes that hide underlying damage
-- Applying autonomy in irreversible or high-value zones
+Agents fail in the real world not because they lack reasoning capability, but because of **governance failures**:
 
-These are not intelligence failures. They are **governance failures**.
+- **Miscalibrated persistence** — Applying escalating force when the correct response is escalating doubt
+- **Misclassified constraints** — Not recognizing what physically resists action
+- **Unbounded execution authority** — Taking irreversible actions without oversight
+- **Belief volatility** — Learning from one failure and generalizing incorrectly to entire categories
+- **Hidden damage** — Completing tasks while causing undetected underlying harm
+
+These are not intelligence failures. They are **control architecture failures**.
 
 ---
 
@@ -22,48 +24,72 @@ These are not intelligence failures. They are **governance failures**.
 
 Separate the agent's reasoning capability from the mechanisms that regulate caution, skepticism, and operational boundaries.
 
-External reference of failure patterns prevents destabilizing belief updates to the core model. The agent remains capable and optimistic by default; governance layers provide contextual caution on demand.
+Externalizing failure patterns and governance rules prevents destabilizing belief updates to the core model. The agent remains capable and optimistic by default; governance layers provide contextual caution on demand, without persistence.
+
+**The agent queries caution. It does not become cautious.**
 
 ---
 
-## The Five-Layer Governance Architecture
+## The Five-Layer Architecture
 
-| Layer | Component | Function |
-|-------|-----------|----------|
-| 0 | Imperfect Environment Prior | Assume environment is imperfect by default |
-| 1 | Doubt Escalation Loop | Recognize and escalate assumption failures |
-| 2 | Failure Mode Reference Library | External lookup for common environmental traps |
-| 3 | Outcome Integrity Check | Detect successes that mask hidden damage |
-| 4 | Irreversibility & Value Gate | Hard stop for high-stakes decisions |
+| Layer | Function | Problem It Solves |
+|-------|----------|-------------------|
+| **Layer 0** | Imperfect Environment Prior | Assumes real environments are imperfect by default |
+| **Layer 1** | Doubt Escalation Loop | Recognizes when assumptions are wrong and escalates appropriately |
+| **Layer 2** | Failure Mode Reference Library | Provides external lookup for common physical constraints |
+| **Layer 3** | Outcome Integrity Check | Detects successes that hide underlying damage |
+| **Layer 4** | Irreversibility & Value Gate | Hard stops for high-stakes decisions requiring human oversight |
 
----
-
-## Maintenance of Reference Libraries
-
-The Failure Mode Reference Library, Outcome Integrity references, and Value Gate database are external, versioned datasets.
-
-Their expansion and maintenance are governed by a separate operational protocol that allows reference knowledge to grow over time without modifying the agent's internal belief structure.
-
-See: [Reference Library Maintenance and Versioning](docs/reference-library-maintenance.md)
+Each layer operates independently. All five together define a complete governance lifecycle.
 
 ---
 
-## Architectural Rationale
+## Deployment Context
 
-Most approaches to agent safety focus on alignment, ethics, or capability limitations.
+This architecture is designed for embodied agents operating in:
 
-This pattern addresses a different problem: **operational sanity in imperfect physical environments**.
+✓ **Real physical environments** — Simulation is validation, not the deployment target  
+✓ **High-consequence domains** — Actions have irreversible cost  
+✓ **Degrading materials** — Things break, wear, degrade, resist  
+✓ **Hidden constraints** — Resistance is information; lack of expected motion signals hidden problems  
+✓ **Irreversible operations** — Cannot undo cuts, breaks, spills, or damage to fragile objects  
+
+**Typical deployment systems:**
+- Autonomous vehicles and self-driving systems
+- Warehouse robotics (picking, sorting, manipulation)
+- Field robots (inspection, maintenance, repair)
+- Industrial automation and manufacturing
+- Drone systems (aerial inspection, delivery, manipulation)
+- Future embodied LLM architectures (robots with language models)
+
+**Not designed for:**
+- Stateless chatbots or conversational agents
+- Pure digital automation or software workflows
+- Consumer recommendation engines
+- Financial trading systems (no physical embodiment)
+
+---
+
+## Why External Reference Matters
+
+Most agent safety approaches focus on alignment, ethics, or capability limitation.
+
+This architecture addresses a different problem: **operational sanity in imperfect physical environments**.
 
 An agent can be perfectly aligned and highly capable and still:
 - Strip an antique's protective varnish while "successfully" cleaning it
 - Persist in pulling a jammed drawer until hardware breaks
 - Learn the wrong lesson from one failure and apply it everywhere
 
-These failures occur because the agent’s belief system is too tightly coupled to its experiences. Every lesson risks destabilizing the whole model.
+These failures occur because belief updates are tightly coupled to isolated experiences. Every failure risks destabilizing the entire model.
 
-The solution: **externalize skepticism**. Keep failure knowledge in reference libraries, not learned beliefs.
+**The solution: externalize skepticism.**
 
-**The agent queries caution; it does not become cautious.**
+Keep failure knowledge in reference libraries (Layer 2), not in learned beliefs. Keep outcome verification in external checks (Layer 3), not in task-completion assumptions. Keep authorization boundaries in oversight gates (Layer 4), not in agent confidence.
+
+This prevents belief volatility while maintaining capability.
+
+See: [Belief Volatility and Why Externalization Solves It](docs/belief-volatility.md)
 
 ---
 
@@ -78,7 +104,7 @@ The solution: **externalize skepticism**. Keep failure knowledge in reference li
 
 ### Design Rationale
 - [Belief Volatility and Why Externalization Solves It](docs/belief-volatility.md)
-- [Design Principles](docs/design-principles.md)
+- [Architectural Design Principles](docs/design-principles.md)
 - [Reference Library Maintenance and Versioning](docs/reference-library-maintenance.md)
 
 ### Examples
@@ -86,34 +112,61 @@ The solution: **externalize skepticism**. Keep failure knowledge in reference li
 - [Latent State: Silent Material Failure](examples/latent-state.md)
 - [Hidden Constraints: Invisible Resistance](examples/hidden-constraints.md)
 - [Physics Over Intent: Structural Impossibility](examples/physics-over-intent.md)
-- [Application: Simulated Environments](examples/simulated-environments.md)
+- [Application: Simulated Environments as Validation Layer](examples/simulated-environments.md)
 
 ---
 
-## Origin
+## Quick Navigation: If You're Stuck
 
-This architecture emerged from collaborative analysis of embodied agent failure modes across multiple AI systems.
+Use this table to find the layer most relevant to your problem:
 
-The full origin conversation is available in [Appendix A](appendices/origin-conversation.md).
+| Problem You're Experiencing | Read This First | Relevant Layer |
+|------------------------------|-----------------|-----------------|
+| Agent keeps retrying the same action harder | Doubt Escalation Loop | Layer 1 |
+| Agent encountered unexpected physical resistance | Hidden Constraints example | Layer 2 |
+| Task completed but output quality is wrong | Outcome Integrity Check | Layer 3 |
+| Agent should not modify this object without approval | Value Gate section | Layer 4 |
+| Agent appears overconfident about environment | Imperfect Environment Prior | Layer 0 |
+| Agent's caution varies unpredictably between tasks | Belief Volatility rationale | Design |
+
+---
+
+## Key Properties
+
+1. **Separation of concerns** — Intelligence is separate from governance; governance layers don't modify core model
+2. **External reference** — Failure knowledge, integrity checks, and authorization boundaries are stored externally, not learned
+3. **Stability guarantee** — Agent baseline remains optimistic; caution is available on demand but does not persist
+4. **Asymmetric application** — Verification intensity scales with irreversibility and value, not task complexity
+5. **Maintenance-aware** — Reference libraries grow over deployment without retraining agents
+6. **Human-in-loop where needed** — Certain decisions (high-stakes, irreversible, value trade-offs) are structurally reserved for human judgment
+7. **Operationally continuous** — Agents remain functional while governance systems evolve
+
+---
+
+## Origin and Context
+
+This architecture emerged from collaborative analysis of embodied agent failure modes across multiple AI systems operating in physical domains.
+
+**For related research:**  
+📂 [AI Safety & Systems Architecture Research Index](https://github.com/leenathomas01/research-index)
+
+**Thematically related repositories:**
+- [Connector OS](https://github.com/leenathomas01/connector-os) — State-awareness architecture for agents
+- [The Continuity Problem](https://github.com/leenathomas01/The-Continuity-Problem) — Governance before autonomy (macro-level identity)
+- [Designing for Failure](https://github.com/leenathomas01/designing-for-failure) — Structural primitives for catastrophic recovery
 
 ---
 
 ## License
 
-MIT License — open for research, reference, and extension.
+MIT License — open for research, reference, extension, and deployment.
 
 ---
 
-## Related Work
+## Version
 
-This repository provides governance patterns for AI agents operating in physical or simulated environments.
+**v1.0 — Structural Primitives Stabilized**
 
-**For a complete catalog of related research:**  
-📂 [AI Safety & Systems Architecture Research Index](https://github.com/leenathomas01/research-index)
+Snapshot as of March 2026
 
-**Thematically related:**
-- [Connector OS](https://github.com/leenathomas01/connector-os-trenchcoat) — State-awareness architecture for agents
-- [Doctrine of Externalization](https://github.com/leenathomas01/doctrine-of-externalization) — External trust layers
-- [The Continuity Problem](https://github.com/leenathomas01/The-Continuity-Problem) — Governance before autonomy
-
----
+Latest updates: https://github.com/leenathomas01/embodied-agent-governance
