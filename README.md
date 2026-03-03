@@ -97,6 +97,15 @@ Keep failure knowledge in reference libraries (Layer 2), not in learned beliefs.
 
 This prevents belief volatility while maintaining capability.
 
+![Externalized Skepticism Comparison](assets/diagrams/externalized-skepticism-comparison.png)
+
+*Why externalized skepticism prevents belief volatility. Traditional 
+agents accumulate caution in their weights (left), causing oscillation 
+and overcorrection. Embodied agents reference external failure 
+libraries (right), maintaining stable behavior while knowledge grows. 
+The agent queries caution; it does not become cautious.*
+
+
 See: [Belief Volatility and Why Externalization Solves It](docs/belief-volatility.md)
 
 ---
