@@ -10,11 +10,11 @@ Intelligence alone is insufficient for safe physical embodiment.
 
 Agents fail in the real world not because they lack reasoning capability, but because of **governance failures**:
 
-- **Miscalibrated persistence** — Applying escalating force when the correct response is escalating doubt
-- **Misclassified constraints** — Not recognizing what physically resists action
-- **Unbounded execution authority** — Taking irreversible actions without oversight
-- **Belief volatility** — Learning from one failure and generalizing incorrectly to entire categories
-- **Hidden damage** — Completing tasks while causing undetected underlying harm
+- **Miscalibrated persistence** - Applying escalating force when the correct response is escalating doubt
+- **Misclassified constraints** - Not recognizing what physically resists action
+- **Unbounded execution authority** - Taking irreversible actions without oversight
+- **Belief volatility** - Learning from one failure and generalizing incorrectly to entire categories
+- **Hidden damage** - Completing tasks while causing undetected underlying harm
 
 These are not intelligence failures. They are **control architecture failures**.
 
@@ -42,6 +42,17 @@ Externalizing failure patterns and governance rules prevents destabilizing belie
 
 Each layer operates independently. All five together define a complete governance lifecycle.
 
+![Five-Layer Governance Embedded in Physical Context](assets/diagrams/governance-in-physical-context.png)
+
+*Five-layer governance embedded in physical environment. The agent 
+system (white) operates within real-world constraints (gray). Governance 
+layers execute within the agent. Layers 2 and 4 reference external 
+systems (orange) without modifying the agent model. Learning flows 
+back to external libraries, not into the agent.*
+
+---
+
+## Deployment Context
 ---
 
 ## Deployment Context
