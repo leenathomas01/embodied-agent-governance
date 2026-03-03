@@ -53,9 +53,6 @@ back to external libraries, not into the agent.*
 ---
 
 ## Deployment Context
----
-
-## Deployment Context
 
 This architecture is designed for embodied agents operating in:
 
