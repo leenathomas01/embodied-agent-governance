@@ -148,7 +148,7 @@ Use this table to find the layer most relevant to your problem:
 This architecture emerged from collaborative analysis of embodied agent failure modes across multiple AI systems operating in physical domains.
 
 **For related research:**  
-📂 [AI Safety & Systems Architecture Research Index](https://github.com/leenathomas01/research-index)
+📂 [Research Index](https://github.com/leenathomas01/research-index)
 
 **Thematically related repositories:**
 - [Connector OS](https://github.com/leenathomas01/connector-os) — State-awareness architecture for agents
