@@ -49,32 +49,6 @@ Externalizing failure patterns and governance rules prevents destabilizing belie
 
 ---
 
-## Deployment Context
-
-This architecture is designed for embodied agents operating in:
-
-✓ **Real physical environments** — Simulation is validation, not the deployment target  
-✓ **High-consequence domains** — Actions have irreversible cost  
-✓ **Degrading materials** — Things break, wear, degrade, resist  
-✓ **Hidden constraints** — Resistance is information; lack of expected motion signals hidden problems  
-✓ **Irreversible operations** — Cannot undo cuts, breaks, spills, or damage to fragile objects  
-
-**Typical deployment systems:**
-- Autonomous vehicles and self-driving systems
-- Warehouse robotics (picking, sorting, manipulation)
-- Field robots (inspection, maintenance, repair)
-- Industrial automation and manufacturing
-- Drone systems (aerial inspection, delivery, manipulation)
-- Future embodied LLM architectures (robots with language models)
-
-**Not designed for:**
-- Stateless chatbots or conversational agents
-- Pure digital automation or software workflows
-- Consumer recommendation engines
-- Financial trading systems (no physical embodiment)
-
----
-
 ## Why External Reference Matters
 
 Most agent safety approaches focus on alignment, ethics, or capability limitation.
@@ -127,6 +101,33 @@ systems (orange) without modifying the agent model. Learning flows
 back to external libraries, not into the agent.*
 
 ---
+
+## Deployment Context
+
+This architecture is designed for embodied agents operating in:
+
+✓ **Real physical environments** — Simulation is validation, not the deployment target  
+✓ **High-consequence domains** — Actions have irreversible cost  
+✓ **Degrading materials** — Things break, wear, degrade, resist  
+✓ **Hidden constraints** — Resistance is information; lack of expected motion signals hidden problems  
+✓ **Irreversible operations** — Cannot undo cuts, breaks, spills, or damage to fragile objects  
+
+**Typical deployment systems:**
+- Autonomous vehicles and self-driving systems
+- Warehouse robotics (picking, sorting, manipulation)
+- Field robots (inspection, maintenance, repair)
+- Industrial automation and manufacturing
+- Drone systems (aerial inspection, delivery, manipulation)
+- Future embodied LLM architectures (robots with language models)
+
+**Not designed for:**
+- Stateless chatbots or conversational agents
+- Pure digital automation or software workflows
+- Consumer recommendation engines
+- Financial trading systems (no physical embodiment)
+
+---
+
 
 ## Documentation
 
