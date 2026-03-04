@@ -4,6 +4,14 @@
 
 Detect when reality resists the agent's assumptions and escalate doubt appropriately through defined stages.
 
+![Force Escalation vs Doubt Escalation](../assets/diagrams/escalation-paths.png)
+
+---
+
+## In Physical Systems
+
+In software systems, retries are low-cost and reversible. In physical systems, retries introduce material stress and wear. Resistance is not failure—it is information requiring interpretation.
+
 ---
 
 ## The Problem It Solves
@@ -85,7 +93,7 @@ Example: Expected 5mm displacement, observed 0mm. This is not noise — this is 
 
 ## Key Principle
 
-****Repeated expectation violation is evidence of model error.****
+**Repeated expectation violation is evidence of model error.**
 
 The correct response to "reality says no" is not force. It is doubt.
 
