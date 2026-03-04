@@ -1,6 +1,6 @@
 # Embodied Agent Governance
 
-A layered control architecture for intelligent systems operating in real-world physical environments.
+A governance architecture for intelligent systems operating in real-world physical environments where actions have irreversible consequences.
 
 > Designed for embodied systems where:
 >
@@ -15,7 +15,7 @@ A layered control architecture for intelligent systems operating in real-world p
 
 Intelligence alone is insufficient for safe physical embodiment.
 
-Agents fail in the real world not because they lack reasoning capability, but because of **governance failures**:
+Agents fail in the real world not because they lack reasoning capability, but because **the architecture governing action is incomplete.**:
 
 - **Miscalibrated persistence** - Applying escalating force when the correct response is escalating doubt
 - **Misclassified constraints** - Not recognizing what physically resists action
@@ -24,6 +24,18 @@ Agents fail in the real world not because they lack reasoning capability, but be
 - **Hidden damage** - Completing tasks while causing undetected underlying harm
 
 These are not intelligence failures. They are **control architecture failures**.
+
+---
+
+## Why Physical Systems Are Different
+
+In software, errors are events.
+
+In physical systems, errors change state.
+
+- Retries accumulate wear.
+- Force converts to damage.
+- Irreversible actions cannot be rolled back.
 
 ---
 
