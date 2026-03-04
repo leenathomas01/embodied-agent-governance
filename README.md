@@ -49,28 +49,6 @@ Externalizing failure patterns and governance rules prevents destabilizing belie
 
 ---
 
-## The Five-Layer Architecture
-
-| Layer | Function | Problem It Solves |
-|-------|----------|-------------------|
-| **Layer 0** | Imperfect Environment Prior | Assumes real environments are imperfect by default |
-| **Layer 1** | Doubt Escalation Loop | Recognizes when assumptions are wrong and escalates appropriately |
-| **Layer 2** | Failure Mode Reference Library | Provides external lookup for common physical constraints |
-| **Layer 3** | Outcome Integrity Check | Detects successes that hide underlying damage |
-| **Layer 4** | Irreversibility & Value Gate | Hard stops for high-stakes decisions requiring human oversight |
-
-Each layer operates independently. All five together define a complete governance lifecycle.
-
-![Five-Layer Governance Embedded in Physical Context](assets/diagrams/governance-in-physical-context.png)
-
-*Five-layer governance embedded in physical environment. The agent 
-system (white) operates within real-world constraints (gray). Governance 
-layers execute within the agent. Layers 2 and 4 reference external 
-systems (orange) without modifying the agent model. Learning flows 
-back to external libraries, not into the agent.*
-
----
-
 ## Deployment Context
 
 This architecture is designed for embodied agents operating in:
@@ -126,6 +104,27 @@ The agent queries caution; it does not become cautious.*
 
 
 See: [Belief Volatility and Why Externalization Solves It](docs/belief-volatility.md)
+
+---
+## The Five-Layer Architecture
+
+| Layer | Function | Problem It Solves |
+|-------|----------|-------------------|
+| **Layer 0** | Imperfect Environment Prior | Assumes real environments are imperfect by default |
+| **Layer 1** | Doubt Escalation Loop | Recognizes when assumptions are wrong and escalates appropriately |
+| **Layer 2** | Failure Mode Reference Library | Provides external lookup for common physical constraints |
+| **Layer 3** | Outcome Integrity Check | Detects successes that hide underlying damage |
+| **Layer 4** | Irreversibility & Value Gate | Hard stops for high-stakes decisions requiring human oversight |
+
+Each layer operates independently. All five together define a complete governance lifecycle.
+
+![Five-Layer Governance Embedded in Physical Context](assets/diagrams/governance-in-physical-context.png)
+
+*Five-layer governance embedded in physical environment. The agent 
+system (white) operates within real-world constraints (gray). Governance 
+layers execute within the agent. Layers 2 and 4 reference external 
+systems (orange) without modifying the agent model. Learning flows 
+back to external libraries, not into the agent.*
 
 ---
 
