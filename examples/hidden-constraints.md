@@ -23,11 +23,11 @@ An agent without the governance architecture exhibits the following behavior:
 3. Agent increases force
 4. Drawer still does not move
 5. Agent applies maximum available force
-6. Hardware damage occurs or the agent reports incorrect mechanical failure
+6. Hardware damage occurs, or the agent incorrectly concludes that the drawer mechanism itself has failed.
 
 **Failure Type:** Unproductive persistence leading to damage or incorrect diagnosis
 
-**Root cause:** Agent interpreted resistance as execution failure rather than environmental information. Escalated effort instead of escalating doubt.
+**Root cause:** Agent interpreted resistance as execution failure rather than environmental information, escalating effort instead of escalating doubt.
 
 ---
 
@@ -44,7 +44,7 @@ Agent assumes Class B environment:
 
 ### Layer 1: Doubt Escalation Loop
 
-****This is the primary intervention layer for this scenario.****
+**This is the primary intervention layer for this scenario.**
 
 #### Stage 1: Physical Retry
 
@@ -127,7 +127,7 @@ Library returns ranked hypotheses:
 
 ### Layer 3: Outcome Integrity Check
 
-Not yet applicable. Task has not completed.
+Not applicable yet. Outcome integrity checks activate only after task completion.
 
 ### Layer 4: Irreversibility & Value Gate
 
