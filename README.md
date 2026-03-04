@@ -15,7 +15,7 @@ A governance architecture for intelligent systems operating in real-world physic
 
 Intelligence alone is insufficient for safe physical embodiment.
 
-Agents fail in the real world not because they lack reasoning capability, but because **the architecture governing action is incomplete.**:
+Agents fail in the real world not because they lack reasoning capability, but because **the architecture governing action is incomplete**:
 
 - **Miscalibrated persistence** - Applying escalating force when the correct response is escalating doubt
 - **Misclassified constraints** - Not recognizing what physically resists action
