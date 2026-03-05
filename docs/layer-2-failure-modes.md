@@ -6,7 +6,7 @@ In software systems, global overgeneralization from single failures is common.
 
 In physical systems, failures are contextual - a failure in one condition does not invalidate the entire class.
 
-External reference libraries prevent dangerous overgeneralization.
+External reference libraries allow failures to remain local instead of rewriting global belief.
 
 ---
 
