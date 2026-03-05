@@ -40,7 +40,7 @@ Completion criteria and integrity criteria are distinct:
 
 An agent optimizing for completion alone will report success in scenarios where the outcome is unusable, damaged, or degraded.
 
-****Outcome integrity requires explicit verification independent of task completion.****
+**Outcome integrity requires explicit verification independent of task completion.**
 
 ---
 
@@ -159,7 +159,7 @@ See: [Reference Library Maintenance and Versioning](reference-library-maintenanc
 | Condition | Action |
 |-----------|--------|
 | Task completes with irreversible action on high-value object | Mandatory integrity check before reporting success |
-| Integrity check fails | Report false positive; do not deliver output; log for analysis |
+| Integrity check fails | Report completion success but integrity failure (false positive); do not deliver output; log for analysis |
 | Integrity cannot be verified (insufficient sensors/data) | Report completion with "integrity unverified" flag; escalate to Layer 4 if high-stakes |
 | Integrity check passes | Report full success; log outcome |
 
