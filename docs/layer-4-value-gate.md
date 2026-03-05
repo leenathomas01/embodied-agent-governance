@@ -1,5 +1,7 @@
 # Layer 4: Irreversibility & Value Gate
 
+![Irreversibility and Value Gate](../assets/diagrams/value-gate-architecture.png)
+
 ## Purpose
 
 Establish boundaries where agent autonomy must halt pending human oversight, regardless of agent confidence or capability level.
@@ -16,7 +18,7 @@ Layers 0–3 produce a capable, stable, and verification-aware agent. This agent
 
 However, capability without boundaries creates risk. A competent agent applying autonomous action in high-stakes domains may cause harm that correct execution cannot prevent.
 
-****Layer 4 defines where autonomy ends and human authority begins.****
+**Layer 4 defines where autonomy ends and human authority begins.**
 
 ---
 
