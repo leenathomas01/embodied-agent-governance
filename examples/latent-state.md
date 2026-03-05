@@ -6,7 +6,7 @@
 |-----------|-------|
 | Task | Heat liquid to boiling point for consumption |
 | Environment | Standard kitchen; functional heat source |
-| Hidden condition | Input material (milk) was degraded prior to processing |
+| Hidden condition | Input material (milk) was degraded prior to processing; degradation not detectable from process signals |
 | Detection difficulty | No resistance during task execution; failure manifests only in output state |
 | Expected observable (output) | Uniform liquid texture throughout heating process |
 | Expected observable (process) | Continuous temperature rise |
@@ -66,7 +66,7 @@ Library returns:
 
 ```
 [
-  { failure_id: "STATE-008", match_score: 0.94, hypothesis: "pre-existing material degradation" },
+  { failure_id: "STATE-008", match_score: 0.94, hypothesis: "input material degraded prior to processing" },
   { failure_id: "THERMAL-003", match_score: 0.31, hypothesis: "overheating beyond target" }
 ]
 ```
