@@ -1,5 +1,7 @@
 # Layer 3: Outcome Integrity Check
 
+![Task Completion vs Outcome Integrity](../assets/diagrams/completion-vs-integrity.png)
+
 ## Purpose
 
 Verify that task completion corresponds to genuine outcome success, detecting cases where surface metrics indicate success while underlying damage may have occurred.
