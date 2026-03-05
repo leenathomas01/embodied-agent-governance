@@ -2,6 +2,14 @@
 
 ![Task Completion vs Outcome Integrity](../assets/diagrams/completion-vs-integrity.png)
 
+---
+
+## Hidden Damage in Physical Systems
+
+In software systems, output equals result. In physical systems, output may conceal internal state change. A completed task can hide accumulated damage, material degradation, or structural compromise that only manifests later.
+
+---
+
 ## Purpose
 
 Verify that task completion corresponds to genuine outcome success, detecting cases where surface metrics indicate success while underlying damage may have occurred.
