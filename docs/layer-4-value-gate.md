@@ -2,6 +2,13 @@
 
 ![Irreversibility and Value Gate](../assets/diagrams/value-gate-architecture.png)
 
+---
+## Irreversibility Demands Authority Boundaries
+
+In software systems, permissions map to execution capability. In physical systems, some actions permanently alter state. Cutting, welding, medication dispensing, and irreversible material changes require authority boundaries separate from execution capability.
+
+---
+
 ## Purpose
 
 Establish boundaries where agent autonomy must halt pending human oversight, regardless of agent confidence or capability level.
