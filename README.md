@@ -213,10 +213,10 @@ This architecture was explored through a series of short discussions on
 physical control systems and embodied agents.
 
 Topics covered:
-• Escalation under material resistance
-• Contextual learning in physical environments
-• Structural integrity vs task completion
-• Authority boundaries in irreversible domains
+- Escalation under material resistance
+- Contextual learning in physical environments
+- Structural integrity vs task completion
+- Authority boundaries in irreversible domains
 
 ---
 
