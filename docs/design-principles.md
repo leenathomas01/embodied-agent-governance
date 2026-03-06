@@ -116,4 +116,4 @@ An agent governed by these principles will be:
 - **Bounded** — respectful of domains requiring human judgment
 - **Verifiable** — explicit about what it checked and what remains uncertain
 
-This is not AGI. This is not alignment. This is **operational governance** — the minimum viable sanity required for agents interacting with imperfect physical environments.
+This is **operational governance** — the minimum viable sanity required for agents interacting with imperfect physical environments.
