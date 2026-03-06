@@ -205,4 +205,19 @@ MIT License — open for research, reference, extension, and deployment.
 
 Snapshot as of March 2026
 
+---
+
+## Related Discussions
+
+This architecture was explored through a series of short discussions on
+physical control systems and embodied agents.
+
+Topics covered:
+• Escalation under material resistance
+• Contextual learning in physical environments
+• Structural integrity vs task completion
+• Authority boundaries in irreversible domains
+
+---
+
 Latest updates: https://github.com/leenathomas01/embodied-agent-governance
