@@ -183,14 +183,6 @@ Use this table to find the layer most relevant to your problem:
 
 This architecture emerged from collaborative analysis of embodied agent failure modes across multiple AI systems operating in physical domains.
 
-**For related research:**  
-📂 [Research Index](https://github.com/leenathomas01/research-index)
-
-**Thematically related repositories:**
-- [Connector OS](https://github.com/leenathomas01/connector-os) — State-awareness architecture for agents
-- [The Continuity Problem](https://github.com/leenathomas01/The-Continuity-Problem) — Governance before autonomy (macro-level identity)
-- [Designing for Failure](https://github.com/leenathomas01/designing-for-failure) — Structural primitives for catastrophic recovery
-
 ---
 
 ## License
@@ -199,13 +191,6 @@ MIT License — open for research, reference, extension, and deployment.
 
 ---
 
-## Version
-
-**v1.0 — Structural Primitives Stabilized**
-
-Snapshot as of March 2026
-
----
 
 ## Related Discussions
 
@@ -219,5 +204,31 @@ Topics covered:
 - Authority boundaries in irreversible domains
 
 ---
+
+## Whitepaper
+
+Embodied Agent Governance: A Layered Architecture for Stable Autonomous Systems in Physical Environments
+
+Whitepaper (v1.1):
+[https://github.com/leenathomas01/embodied-agent-governance/](https://github.com/leenathomas01/embodied-agent-governance/tree/main/whitepaper)
+
+---
+## Version
+
+**v1.1 — Embodied Agent Governance — Whitepaper Release**
+
+Snapshot as of March 2026
+
+---
+
+**For related research:**  
+📂 [Research Index](https://github.com/leenathomas01/research-index)
+
+**Thematically related repositories:**
+- [Connector OS](https://github.com/leenathomas01/connector-os) — State-awareness architecture for agents
+- [The Continuity Problem](https://github.com/leenathomas01/The-Continuity-Problem) — Governance before autonomy (macro-level identity)
+- [Designing for Failure](https://github.com/leenathomas01/designing-for-failure) — Structural primitives for catastrophic recovery
+
+
 
 Latest updates: https://github.com/leenathomas01/embodied-agent-governance
