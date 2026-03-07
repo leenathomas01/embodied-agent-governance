@@ -1,3 +1,14 @@
+## Whitepaper
+
+Embodied Agent Governance: A Layered Architecture for Stable Autonomous Systems in Physical Environments
+
+Whitepaper (v1.1):
+
+[https://github.com/leenathomas01/embodied-agent-governance/](https://github.com/leenathomas01/embodied-agent-governance/tree/main/whitepaper)
+
+
+-----
+
 # Embodied Agent Governance
 
 A governance architecture for intelligent systems operating in real-world physical environments where actions have irreversible consequences.
@@ -205,14 +216,6 @@ Topics covered:
 
 ---
 
-## Whitepaper
-
-Embodied Agent Governance: A Layered Architecture for Stable Autonomous Systems in Physical Environments
-
-Whitepaper (v1.1):
-[https://github.com/leenathomas01/embodied-agent-governance/](https://github.com/leenathomas01/embodied-agent-governance/tree/main/whitepaper)
-
----
 ## Version
 
 **v1.1 — Embodied Agent Governance — Whitepaper Release**
