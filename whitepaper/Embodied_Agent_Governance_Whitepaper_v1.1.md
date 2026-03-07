@@ -1084,7 +1084,7 @@ See repository `/examples/` directory for full scenarios with code walkthroughs.
 
 ## Version Information
 
-**Whitepaper Version:** 1.0  
+**Whitepaper Version:** 1.1  
 **Repository Version:** v1.1 (Physical Grounding Clarified)  
 **Date:** March 2026
 
