@@ -19,7 +19,8 @@ A governance architecture for intelligent systems operating in real-world physic
   > -  Materials degrade or fail silently
   > -  Physical resistance is signal, not noise
   > -  Incorrect execution causes real damage
-   
+
+![Robot Attempting to Open Drawer](assets/diagrams/robot-drawer.png)   
 ---
 
 ## The Problem
