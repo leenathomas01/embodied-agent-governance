@@ -1,3 +1,5 @@
+Embodied Agent Governance treats physical autonomy as a control problem rather than a reasoning problem.
+
 ## Whitepaper
 
 Embodied Agent Governance: A Layered Architecture for Stable Autonomous Systems in Physical Environments
