@@ -94,7 +94,7 @@ The agent queries caution; it does not become cautious.*
 See: [Belief Volatility and Why Externalization Solves It](docs/belief-volatility.md)
 
 ---
-_<Noted on 30 March 2026>_
+_<Note placed on 30 March 2026>_
 ## Emerging Consideration: Perceptual Integrity Under Interaction
 
 Physical interaction does not only change the environment - it can also degrade the agent’s ability to perceive that environment accurately.
@@ -125,7 +125,8 @@ To include:
 > Escalate doubt not only when the world resists, but when perception becomes unreliable.
 
 This concept is not currently formalized as a separate governance layer. It may be incorporated into the **Doubt Escalation Loop (Layer 1)** as an additional trigger condition.
-_<Noted on 30 March 2026>_
+
+_</Note placed on 30 March 2026>_
 
 ---
 
