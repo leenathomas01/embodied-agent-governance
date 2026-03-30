@@ -94,6 +94,42 @@ The agent queries caution; it does not become cautious.*
 See: [Belief Volatility and Why Externalization Solves It](docs/belief-volatility.md)
 
 ---
+
+## Emerging Consideration: Perceptual Integrity Under Interaction
+
+Physical interaction does not only change the environment - it can also degrade the agent’s ability to perceive that environment accurately.
+
+As agents apply force, encounter resistance, or interact with unstable systems, the quality of sensor input and state estimation may degrade in real time. Vibration, thermal effects, misalignment, and feedback inconsistencies can introduce drift or noise into perception.
+
+This introduces a dynamic failure mode:
+
+> The agent may not only be wrong about the system — it may be losing the ability to detect how wrong it is.
+
+This suggests that escalation in embodied systems should not be triggered solely by outcome mismatch (expected vs observed), but also by **loss of confidence in observation fidelity itself**.
+
+### Indicators of Perceptual Degradation
+
+- Increasing variance in repeated measurements  
+- Conflicting signals across modalities (e.g., vision vs force feedback)  
+- Drift in estimated properties (mass, position, resistance)  
+- Unstable or noisy sensor readings during interaction  
+
+### Architectural Implication
+
+This extends the core principle of the system:
+
+> Escalate doubt, not force.
+
+To include:
+
+> Escalate doubt not only when the world resists, but when perception becomes unreliable.
+
+This concept is not currently formalized as a separate governance layer. It may be incorporated into the **Doubt Escalation Loop (Layer 1)** as an additional trigger condition.
+
+---
+
+
+
 ## The Five-Layer Architecture
 
 | Layer | Function | Problem It Solves |
