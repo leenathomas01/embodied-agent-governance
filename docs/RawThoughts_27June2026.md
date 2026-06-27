@@ -141,3 +141,12 @@ This waypoint emerged from discussions involving embodied agents, remote robotic
 The embodiment discussion was the catalyst.
 
 The architectural distinction was the destination.
+
+
+---
+
+### Catalysts
+
+https://www.anthropic.com/features/claude-on-mars
+
+https://threecircles.substack.com/p/how-to-give-your-ai-a-body
